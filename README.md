@@ -11,7 +11,7 @@ npm i ftp-cli --save-dev
 
 ## config
 
-create ftp-config.js at project root directory 
+create ftp-config.js at project root directory
 
 ### ftp-config.js
 
@@ -20,10 +20,10 @@ create ftp-config.js at project root directory
   {
     "host":"localhost",
     "port":21,
-    "user":"",
-    "password":"",
-    "srcPath":"",
-    "destPath":""
+    "user":"admin",
+    "password":"admin",
+    "srcPath":"src",
+    "destPath":"/admin"
   },
   ...
 ]
