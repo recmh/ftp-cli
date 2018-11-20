@@ -1,0 +1,36 @@
+{
+  "name": "ftp-cli",
+  "version": "1.0.0",
+  "description": "ftp cli tool",
+  "main": "index.js",
+  "bin": {
+    "ftp-cli": "./lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recmh/ftp-cli.git"
+  },
+  "keywords": [
+    "ftp",
+    "ftp-cli",
+    "node"
+  ],
+  "author": "recmh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/recmh/ftp-cli/issues"
+  },
+  "homepage": "https://github.com/recmh/ftp-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "ftp": "^0.3.10",
+    "inquirer": "^6.2.0",
+    "meow": "^5.0.0",
+    "moment": "^2.22.2",
+    "ora": "^3.0.0",
+    "text-table": "^0.2.0"
+  }
+}
