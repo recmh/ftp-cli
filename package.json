@@ -1,6 +1,6 @@
 {
   "name": "ftp-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ftp cli tool",
   "main": "index.js",
   "bin": {
