@@ -11,9 +11,9 @@ npm i ftp-cli --save-dev
 
 ## config
 
-create ftp-config.js at project root directory
+create ftp.config.js at project root directory
 
-### ftp-config.js
+### ftp.config.js
 
 ```bash
 [
